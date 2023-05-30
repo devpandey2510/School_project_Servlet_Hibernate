@@ -1,0 +1,26 @@
+@charset "ISO-8859-1";
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.wrapper{
+    width: 100vw;
+    height: 100vh;
+    overflow-x: hidden;
+}
+nav{
+    position: absolute;
+}
+
+.btn{
+margin-right: 1rem;
+}
+
+#img{
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+}

@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="loginStyleSheet.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+</head>
+<body>
+    <section class="wrapper">
+         <div class="container">
+                 <h1 class="head">
+                    User Login
+                </h1>
+               
+                <form action="LoginServlet1" method="post">
+                 
+                
+                  <div class="inputArea">
+                    <i class="fa fa-user " id="icon"></i>
+                    <input type="email" id="name" placeholder="Email" name="email" onclick=" document.getElementById('icon').style.display='none'" >
+                </div>
+                <div class="inputArea">
+                    <i class="fa fa-lock " id="icon1"></i>
+                    <input type="password" name="password" id="password" name="password"  placeholder="Password" onclick=" document.getElementById('icon1').style.display='none'">
+                </div>
+                
+                 <button type="submit" id="login">LOGIN</button>
+                
+                </form>
+              
+                 <a href="#"> Forget Password?</a>
+               <div class="arrow">
+                <a href="#">Create Your Account</a>
+                <svg width="24" height="24" class="arrow" xmlns="http://www.w3.org/2000/svg" fill-rule="evenodd" clip-rule="evenodd">
+                <path d="M21.883 12l-7.527 6.235.644.765 9-7.521-9-7.479-.645.764 7.529 6.236h-21.884v1h21.883z"/></svg>
+             </div>
+                
+               
+               </div>
+    </section>
+   
+    <script>
+       
+    </script>
+</body>
+</html>
